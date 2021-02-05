@@ -1,4 +1,5 @@
 .container {
+	display: flex;
 	background-color: rgba(252, 252, 252, 0.397);
 	margin: 0 auto;
 	width: 700px;
@@ -11,11 +12,23 @@
   box-shadow: 0 20px 30px rgba(0,0,0,0.25), 0 10px 10px #000000;
 }
 
+.folder{
+	align-self: flex-end;
+	margin-left: 88%;
+	margin-bottom: 1%;
+	}
+
+	.icon{
+		color: #272727;
+	}
+	.icon:hover{
+		color:#ffe600;
+	}
 
 @media (max-width: 600px) {
 	.container {
-		background-color: rgba(252, 252, 252, 0.397);
-		width: 95%;
+	background-color: rgba(252, 252, 252, 0.397);
+	width: 95%;
 	margin: 0 auto;
 	max-height: 70%;
 	border: 3px rgb(122, 122, 122)solid ;
@@ -25,6 +38,17 @@
 	overflow:auto;
   box-shadow: 0 20px 30px rgba(0,0,0,0.25), 0 10px 10px #000000;
 }
+.folder{
+	align-self: flex-end;
+	margin-left: 80%;
+	margin-bottom: 3%;
+	}
+	.icon{
+		color: #272727;
+	}
+	.icon:hover{
+		color:#ffe600;
+	}
 }
 
 @media (max-width: 500px) {
@@ -40,4 +64,100 @@
 	overflow:auto;
   box-shadow: 0 20px 30px rgba(0,0,0,0.25), 0 10px 10px #000000;
 }
+.folder{
+	align-self: flex-end;
+	margin-left: 80%;
+	margin-bottom: 3%;
+	}
+
+	.icon{
+		color: #272727;
+	}
+	.icon:hover{
+		color:#ffe600;
+	}
+}
+
+
+@media (max-width: 414px) {
+	.container {
+		background-color: rgba(252, 252, 252, 0.397);
+		width: 95%;
+	margin: 0 auto;
+	max-height: 70%;
+	border: 3px rgb(122, 122, 122)solid ;
+  margin-bottom: 10px;
+  border-radius: 10px;
+	color:#fff;
+	overflow:auto;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.25), 0 10px 10px #000000;
+}
+.folder{
+	align-self: flex-end;
+	margin-left: 75%;
+	margin-bottom: 3%;
+	}
+
+	.icon{
+		color: #272727;
+	}
+	.icon:hover{
+		color:#ffe600;
+	}
+}
+
+
+
+@media (max-width: 375px) {
+	.container {
+		background-color: rgba(252, 252, 252, 0.397);
+		width: 95%;
+	margin: 0 auto;
+	max-height: 70%;
+	border: 3px rgb(122, 122, 122)solid ;
+  margin-bottom: 10px;
+  border-radius: 10px;
+	color:#fff;
+	overflow:auto;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.25), 0 10px 10px #000000;
+}
+.folder{
+	align-self: flex-end;
+	margin-left: 75%;
+	margin-bottom: 3%;
+	}
+
+	.icon{
+		color: #272727;
+	}
+	.icon:hover{
+		color:#ffe600;
+	}
+}
+
+@media (max-width: 320px) {
+	.container {
+		background-color: rgba(252, 252, 252, 0.397);
+		width: 95%;
+	margin: 0 auto;
+	max-height: 70%;
+	border: 3px rgb(122, 122, 122)solid ;
+  margin-bottom: 10px;
+  border-radius: 10px;
+	color:#fff;
+	overflow:auto;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.25), 0 10px 10px #000000;
+}
+.folder{
+	align-self: flex-end;
+	margin-left: 72%;
+	margin-bottom: 1%;
+	}
+
+	.icon{
+		color: #272727;
+	}
+	.icon:hover{
+		color:#ffe600;
+	}
 }
