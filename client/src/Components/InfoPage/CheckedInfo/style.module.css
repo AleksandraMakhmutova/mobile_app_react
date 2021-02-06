@@ -1,0 +1,75 @@
+
+
+#respTable {
+	width: 100%;
+	display: table;
+}
+
+#respTableCaption{
+		display: table;
+		margin: 0 auto;
+		margin-top: 10px;
+		text-align: center;
+		font-size: 30px;
+		font-weight:normal;
+}
+
+#respTableCaption h1{
+font-size: 25px;
+color: rgb(65, 65, 65);
+text-shadow:  rgb(230, 255, 5) 1px 0 10px;
+}
+
+.tableHeaderCell{
+	display: table-cell;
+	padding: 10px;
+	text-align: justify;
+	border-bottom: 1px solid black;
+	
+}
+
+#respTableBody{
+	display: table-row-group;
+}
+
+.respTableRow{
+	display: table-row;
+}
+
+.tableBodyCell{
+	display: table-cell;
+	padding-left: 15px;    
+	padding-right: 15px;
+}
+
+.input{
+	display: flex;
+	align-items: center;
+}
+
+
+
+@media (max-width: 600px) {
+
+
+}
+@media (max-width: 550px) {
+
+}
+
+@media (max-width: 500px) {
+
+}
+
+@media (max-width: 414px) {
+
+}
+
+@media (max-width: 380px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
+

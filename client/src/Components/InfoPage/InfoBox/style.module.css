@@ -1,0 +1,49 @@
+
+
+#respTable {
+	width: 100%;
+	display: table;
+}
+
+#respTableCaption{
+		display: table;
+		margin: 0 auto;
+		margin-top: 10px;
+		text-align: center;
+		font-size: 30px;
+		font-weight:normal;
+}
+
+#respTableHeader{
+			display: table-header-group;
+			background-color: gray;
+			font-weight: bold;
+			font-size: 25px;
+}
+
+.tableHeaderCell{
+	display: table-cell;
+	padding: 10px;
+	text-align: justify;
+	border-bottom: 1px solid black;
+	
+}
+
+#respTableBody{
+	display: table-row-group;
+}
+
+.respTableRow{
+	display: table-row;
+}
+
+.tableBodyCell{
+	display: table-cell;
+	padding-left: 15px;    
+	padding-right: 15px;
+}
+
+.input{
+	display: flex;
+	align-items: center;
+}

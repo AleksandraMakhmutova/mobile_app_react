@@ -1,10 +1,9 @@
 .container {
 	display: flex;
-	background-color: rgba(252, 252, 252, 0.397);
+	background-color: rgba(80, 80, 80, 0.637);
 	margin: 0 auto;
 	width: 700px;
 	height: 70%;
-	border: 3px rgb(122, 122, 122)solid ;
   margin-bottom: 20px;
   border-radius: 10px;
 	color:#fff;
@@ -12,26 +11,53 @@
   box-shadow: 0 20px 30px rgba(0,0,0,0.25), 0 10px 10px #000000;
 }
 
+.boxPhoto{
+	border: 1px rgb(255, 238, 6) dotted;
+	width: 70%;
+	height: 387px;
+	align-self: center;
+	margin-left:15%;
+	padding: 50px;
+
+}
+.photoIcon{
+	margin-top: 36%;
+	color: #ebfc055e;
+}
+.photoIcon:hover{
+	color: #000000af;
+}
+
+.input{
+width: 90%;
+margin-top: 20%;
+}
+
 .folder{
 	align-self: flex-end;
-	margin-left: 88%;
+	margin-left: 5%;
 	margin-bottom: 1%;
 	}
-
+	.photoIcon{
+		margin-top: 50%;
+		color: #ebfc055e;
+	}
+	.photoIcon:hover{
+		color: #000000af;
+	}
 	.icon{
 		color: #272727;
 	}
 	.icon:hover{
-		color:#ffe600;
+		color:#030300;
 	}
 
 @media (max-width: 600px) {
 	.container {
-	background-color: rgba(252, 252, 252, 0.397);
-	width: 95%;
+		background-color: rgba(80, 80, 80, 0.637);	
+		width: 95%;
 	margin: 0 auto;
 	max-height: 70%;
-	border: 3px rgb(122, 122, 122)solid ;
   margin-bottom: 10px;
   border-radius: 10px;
 	color:#fff;
@@ -40,24 +66,43 @@
 }
 .folder{
 	align-self: flex-end;
-	margin-left: 80%;
+	margin-left: 5%;
 	margin-bottom: 3%;
 	}
 	.icon{
 		color: #272727;
 	}
 	.icon:hover{
-		color:#ffe600;
+		color:#030300;
 	}
+	.boxPhoto{
+		border: 1px rgb(255, 238, 6) dotted;
+		width: 70%;
+		height: 387px;
+		align-self: center;
+		margin-left:15%
+	}
+	.photoIcon{
+		margin-top: 50%;
+		color: #ebfc055e;
+	}
+	.photoIcon:hover{
+		color: #000000af;
+	}
+	
+	.input{
+		width: 90%;
+		margin-top: 20%;
+		}
+	
 }
 
 @media (max-width: 500px) {
 	.container {
-		background-color: rgba(252, 252, 252, 0.397);
+		background-color: rgba(80, 80, 80, 0.637);
 		width: 95%;
 	margin: 0 auto;
 	max-height: 70%;
-	border: 3px rgb(122, 122, 122)solid ;
   margin-bottom: 10px;
   border-radius: 10px;
 	color:#fff;
@@ -66,26 +111,44 @@
 }
 .folder{
 	align-self: flex-end;
-	margin-left: 80%;
+	margin-left: 5%;
 	margin-bottom: 3%;
 	}
 
+	.boxPhoto{
+		border: 1px rgb(17, 17, 17) dotted;
+		width: 70%;
+		height: 387px;
+		align-self: center;
+		margin-left:15%
+	}
+	
+	.input{
+		width: 90%;
+		margin-top: 20%;
+		}
+		.photoIcon{
+		margin-top: 50%;
+		color: #ebfc055e;
+	}
+	.photoIcon:hover{
+		color: #000000af;
+	}
 	.icon{
 		color: #272727;
 	}
 	.icon:hover{
-		color:#ffe600;
+		color:#030300;
 	}
 }
 
 
 @media (max-width: 414px) {
 	.container {
-		background-color: rgba(252, 252, 252, 0.397);
+		background-color: rgba(80, 80, 80, 0.637);
 		width: 95%;
 	margin: 0 auto;
 	max-height: 70%;
-	border: 3px rgb(122, 122, 122)solid ;
   margin-bottom: 10px;
   border-radius: 10px;
 	color:#fff;
@@ -94,15 +157,33 @@
 }
 .folder{
 	align-self: flex-end;
-	margin-left: 75%;
+	margin-left: 5%;
 	margin-bottom: 3%;
 	}
-
+	.boxPhoto{
+		border: 1px rgb(255, 238, 6) dotted;
+		width: 70%;
+		height: 387px;
+		align-self: center;
+		margin-left:15%
+	}
+	.photoIcon{
+		margin-top: 50%;
+		color: #ebfc055e;
+	}
+	.photoIcon:hover{
+		color: #000000af;
+	}
+	.input{
+		width: 90%;
+		margin-top: 20%;
+		}
+	
 	.icon{
 		color: #272727;
 	}
 	.icon:hover{
-		color:#ffe600;
+		color:#030300;
 	}
 }
 
@@ -110,11 +191,10 @@
 
 @media (max-width: 375px) {
 	.container {
-		background-color: rgba(252, 252, 252, 0.397);
+		background-color: rgba(80, 80, 80, 0.637);
 		width: 95%;
 	margin: 0 auto;
 	max-height: 70%;
-	border: 3px rgb(122, 122, 122)solid ;
   margin-bottom: 10px;
   border-radius: 10px;
 	color:#fff;
@@ -123,10 +203,28 @@
 }
 .folder{
 	align-self: flex-end;
-	margin-left: 75%;
+	margin-left: 10%;
 	margin-bottom: 3%;
 	}
-
+	.boxPhoto{
+		border: 1px rgb(255, 238, 6) dotted;
+		width: 70%;
+		height: 387px;
+		align-self: center;
+		margin-left:15%
+	}
+	.photoIcon{
+		margin-top: 50%;
+		color: #ebfc055e;
+	}
+	.photoIcon:hover{
+		color: #000000af;
+	}
+	.input{
+		width: 90%;
+		margin-top: 20%;
+		}
+	
 	.icon{
 		color: #272727;
 	}
@@ -137,11 +235,10 @@
 
 @media (max-width: 320px) {
 	.container {
-		background-color: rgba(252, 252, 252, 0.397);
+		background-color: rgba(80, 80, 80, 0.637);
 		width: 95%;
 	margin: 0 auto;
 	max-height: 70%;
-	border: 3px rgb(122, 122, 122)solid ;
   margin-bottom: 10px;
   border-radius: 10px;
 	color:#fff;
@@ -150,10 +247,28 @@
 }
 .folder{
 	align-self: flex-end;
-	margin-left: 72%;
+	margin-left: 10%;
 	margin-bottom: 1%;
 	}
-
+	.boxPhoto{
+		border: 1px rgb(255, 238, 6) dotted;
+		width: 70%;
+		height: 387px;
+		align-self: center;
+		margin-left:15%
+	}
+	.photoIcon{
+		margin-top: 50%;
+		color: #ebfc055e;
+	}
+	.photoIcon:hover{
+		color: #000000af;
+	}
+	.input{
+		width: 90%;
+		margin-top: 20%;
+		}
+	
 	.icon{
 		color: #272727;
 	}

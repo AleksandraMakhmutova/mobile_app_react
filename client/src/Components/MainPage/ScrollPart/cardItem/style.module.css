@@ -1,0 +1,35 @@
+
+
+.container {
+	background-color: rgba(0, 0, 0, 0.397);
+	width: 95%;
+	margin: 0 auto;
+	height: 25%;
+	border: 3px rgb(122, 122, 122)solid ;
+  border-radius: 10px;
+	color:rgb(112, 112, 112);
+}
+
+.docList{
+	display: flex;
+	align-self: flex-start;
+	color: #fff;
+
+}
+
+@media (max-width: 500px) {
+	.container {
+		background-color: rgba(0, 0, 0, 0.397);
+	width: 95%;
+	margin: 0 auto;
+	height: 25%;
+	border: 3px rgb(122, 122, 122)solid ;
+  border-radius: 10px;
+	color:rgb(112, 112, 112);
+}
+.docList{
+	display: flex;
+	align-self: flex-start;
+	color: #fff;
+}
+}
