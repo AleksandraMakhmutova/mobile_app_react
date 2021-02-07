@@ -5,6 +5,8 @@ import style from './style.module.css'
 function InfoBox({infoCard}) {
 const [checked, setChecked] = useState(infoCard);
 const position = Object.keys(checked[0])
+
+
 const handleChange = (event) => {
 	let {value} = event.target
   setChecked(prev=> prev.map(el=>{
@@ -14,7 +16,9 @@ if(key==value){
 }
 		}
 
-		})	)}
+		}))}
+
+
 	return (
 	<div id={style.respTable}>
 <div id={style.respTableCaption}>
@@ -44,9 +48,59 @@ if(key==value){
 				color="default"
         inputProps={{ 'aria-label': 'primary checkbox' }}
 /> {checked[0].surname.surname}</div>	
-
 </div>
-
+<div className={style.respTableRow}>
+	<div className={style.tableBodyCell}>
+	<Checkbox
+        value={position[4]}
+        checked={checked[0].dateOfBirth.status}
+        onChange={handleChange}
+				color="default"
+        inputProps={{ 'aria-label': 'primary checkbox' }}
+/> {checked[0].dateOfBirth.dateOfBirth}</div>		
+<div className={style.tableBodyCell}>
+	<Checkbox
+        value={position[5]}
+        checked={checked[0].placeOfBirth.status}
+        onChange={handleChange}
+				color="default"
+        inputProps={{ 'aria-label': 'primary checkbox' }}
+/> {checked[0].placeOfBirth.placeOfBirth}</div>	
+<div className={style.tableBodyCell.tableBodyCell}>
+	<Checkbox
+        value={position[6]}
+        checked={checked[0].gender.status}
+        onChange={handleChange}
+				color="default"
+        inputProps={{ 'aria-label': 'primary checkbox' }}
+/> {checked[0].gender.gender}</div>	
+</div>
+<div className={style.respTableRow}>
+	<div className={style.tableBodyCell}>
+	<Checkbox
+        value={position[7]}
+        checked={checked[0].serialNumber.status}
+        onChange={handleChange}
+				color="default"
+        inputProps={{ 'aria-label': 'primary checkbox' }}
+/> {checked[0].serialNumber.serialNumber}</div>		
+<div className={style.tableBodyCell}>
+	<Checkbox
+        value={position[8]}
+        checked={checked[0].dateOfIssue.status}
+        onChange={handleChange}
+				color="default"
+        inputProps={{ 'aria-label': 'primary checkbox' }}
+/> {checked[0].dateOfIssue.dateOfIssue}</div>	
+<div className={style.tableBodyCell.tableBodyCell}>
+	<Checkbox
+        value={position[9]}
+        checked={checked[0].departmentCode.status}
+        onChange={handleChange}
+				color="default"
+        inputProps={{ 'aria-label': 'primary checkbox' }}
+/> {checked[0].departmentCode.departmentCode}</div>	
+</div>
 </div>
 </div>
 
