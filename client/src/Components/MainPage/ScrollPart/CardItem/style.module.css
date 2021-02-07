@@ -15,7 +15,10 @@
 	align-self: center;
 	color: rgb(0, 0, 0);
 	margin-left: 7%;
+}
 
+.docList p{
+	font-size: larger;
 }
 .docList i{
 	margin-right: 3%;
@@ -39,6 +42,36 @@
 	align-self: center;
 	color: rgb(0, 0, 0);
 	margin-left: 7%;
+}
+ 
+
+.docList i{
+	margin-right: 3%;
+}
+}
+
+
+
+
+@media (max-width: 320px) {
+	.container {
+		background-color: rgba(0, 0, 0, 0.397);
+	width: 95%;
+	margin: 0 auto;
+	height: 25%;
+	border: 1px rgb(122, 122, 122)solid ;
+  border-radius: 10px;
+	color:rgb(112, 112, 112);
+	margin-top: 3px;
+	/* margin-bottom: 2px; */
+}
+
+.docList{
+	display: flex;
+	align-self: center;
+	color: rgb(0, 0, 0);
+	margin-left: 7%;
+	font-size: 13px;
 }
 .docList i{
 	margin-right: 3%;
