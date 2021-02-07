@@ -9,7 +9,7 @@ function FotoPart() {
 			<div className={`custom-file ${cn(style.input)}`}>
 		
   <input type="file" capture="user" accept="image/*" className="custom-file-input" id="customFile"/>
-  <label className="custom-file-label" for="customFile">Choose file</label>
+  <label className={`custom-file-label ${style.label}`} for="customFile">Choose file</label>
 </div>
 		</div>
 	

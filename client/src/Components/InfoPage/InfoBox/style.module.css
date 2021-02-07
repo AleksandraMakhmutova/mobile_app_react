@@ -1,7 +1,8 @@
-
-
+.flex{
+	margin: 6px 0px auto;
+}
 #respTable {
-	width: 100%;
+	width: 95%;
 	display: table;
 }
 
@@ -14,21 +15,6 @@
 		font-weight:normal;
 }
 
-#respTableHeader{
-			display: table-header-group;
-			background-color: gray;
-			font-weight: bold;
-			font-size: 25px;
-}
-
-.tableHeaderCell{
-	display: table-cell;
-	padding: 10px;
-	text-align: justify;
-	border-bottom: 1px solid black;
-	
-}
-
 #respTableBody{
 	display: table-row-group;
 }
@@ -39,11 +25,46 @@
 
 .tableBodyCell{
 	display: table-cell;
-	padding-left: 15px;    
+	padding-left: 0px;    
 	padding-right: 15px;
+	font-size: medium;
 }
 
-.input{
+/* .input{
 	display: flex;
 	align-items: center;
+} */
+
+@media (max-width: 550px) {
+	.flex{
+		margin: 6px 0px auto;
+
+	}
+}
+
+@media (max-width: 500px) {
+	.flex{
+		margin: 6px 0px auto;
+	}
+}
+
+@media (max-width: 462px) {
+	.flex{
+		margin: 6px 0px auto;
+	  margin-left: 15%;
+	}
+}
+
+@media (max-width: 380px) {
+	.flex{
+		margin: 6px 0px auto;
+	  margin-left: 25%;
+	}
+}
+
+@media (max-width: 320px) {
+	.flex{
+		margin: 6px 0px auto;
+	  margin-left: 37%;
+	}
 }

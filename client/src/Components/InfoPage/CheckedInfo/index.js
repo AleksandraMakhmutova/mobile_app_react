@@ -18,134 +18,104 @@ const GreenCheckbox = withStyles({
 
 function CheckedInfo({infoCard}) {
 
-const [checked, setChecked] = useState([
-		{ name: 'one',
-			id:1,
-			status:false,
-		},
-	  { name: 'two',
-	  	id:2,
-	  	status:false,
-  	},
-	{name: "three",
-		id:3,
-		status:false,
-	},
-	{name:'four',
-		id:4,
-		status:false,
-	},
-	{name:'five',
-		id:5,
-		status:false,
-	},
-  {	name: 'six',
-		id:6,
-		status:false,
-	},
-	{name:'seven',
-		id:7,
-		status:false,
-	},
-	{name:'eight',
-		id:8,
-		status:false,
-	},
-	{name:'nine',
-		id:9,
-		status:false,
-	}
-]);
+const [checked, setChecked] = useState(infoCard);
+const position = Object.keys(checked[0])
 
 const handleChange = (event) => {
-	let {id} = event.target
-	console.log(id);
-  setChecked(prev=> prev.map((el)=>{
-		if(el.id == id){
-	     if(el.status===true)
-			 {
-			 return {...el, status:false}}
-			 if(!el.status)
-			 {return {...el, status: true}} 
-	}
-		else 	return el
-		}	))
-	}
+	let {value} = event.target
+  setChecked(prev=> prev.map(el=>{
+		for(let key in el){
+  if(key==value){
+	return {...el, ...el[value].status = !el[value].status}
+}}}))}
 
 	
 	return (
+		<div className={style.flex}>
 	<div id={style.respTable}>
 <div id={style.respTableCaption}>
 <h1>Checks document</h1>
 <div id={style.respTableBody}>
 <div className={style.respTableRow}>
+
 <div className={style.tableBodyCell}>
 <FormControlLabel  control={<GreenCheckbox
-        id={checked[0].id}
-        checked={true}
+        value={position[2]}
+        checked={checked[0].name.status}
         onChange={handleChange}
 				color="default"
         inputProps={{ 'aria-label': 'primary checkbox' }}
 				name="checkedG"
-/>}></FormControlLabel>{infoCard.document}
+/>} label={checked[0].name.name}/>
 </div>
 <div className={style.tableBodyCell}>
 <FormControlLabel  control={<GreenCheckbox
-        id={checked[0].id}
-        checked={true}
+        value={position[3]}
+        checked={checked[0].surname.status}
         onChange={handleChange}
 				color="default"
         inputProps={{ 'aria-label': 'primary checkbox' }}
 				name="checkedG"
-/>}></FormControlLabel>{infoCard.document}
+/>} label={checked[0].surname.surname}/>
 </div>
+</div>
+
+
+
+
+<div className={style.respTableRow}>
+
+
 <div className={style.tableBodyCell}>
 <FormControlLabel  control={<GreenCheckbox
-        id={checked[0].id}
-        checked={true}
+        value={position[1]}
+        checked={checked[0].document.status}
         onChange={handleChange}
 				color="default"
         inputProps={{ 'aria-label': 'primary checkbox' }}
 				name="checkedG"
-/>}></FormControlLabel>{infoCard.document}
+/>} label={checked[0].document.document}/>
+</div>
+<div className={style.tableBodyCell}>
+<FormControlLabel  control={<GreenCheckbox
+        value={position[4]}
+        checked={checked[0].dateOfBirth.status}
+        onChange={handleChange}
+				color="default"
+        inputProps={{ 'aria-label': 'primary checkbox' }}
+				name="checkedG"
+/>} label={checked[0].dateOfBirth.dateOfBirth}/>
 </div>
 </div>
+
+
+
 <div className={style.respTableRow}>
 <div className={style.tableBodyCell}>
 <FormControlLabel  control={<GreenCheckbox
-        id={checked[0].id}
-        checked={true}
+         value={position[5]}
+        checked={checked[0].placeOfBirth.status}
         onChange={handleChange}
 				color="default"
         inputProps={{ 'aria-label': 'primary checkbox' }}
 				name="checkedG"
-/>}></FormControlLabel>{infoCard.document}
+/>} label={checked[0].placeOfBirth.placeOfBirth}/>
 </div>
 <div className={style.tableBodyCell}>
 <FormControlLabel  control={<GreenCheckbox
-        id={checked[0].id}
-        checked={true}
+        value={position[6]}
+        checked={checked[0].gender.status}
         onChange={handleChange}
 				color="default"
         inputProps={{ 'aria-label': 'primary checkbox' }}
 				name="checkedG"
-/>}></FormControlLabel>{infoCard.document}
-</div>
-<div className={style.tableBodyCell}>
-<FormControlLabel  control={<GreenCheckbox
-        id={checked[0].id}
-        checked={true}
-        onChange={handleChange}
-				color="default"
-        inputProps={{ 'aria-label': 'primary checkbox' }}
-				name="checkedG"
-/>}></FormControlLabel>{infoCard.document}
+/>} label={checked[0].gender.gender}/>
 </div>
 </div>
 
 </div>
 </div>
-
+</div>
 </div>
 	)
 }

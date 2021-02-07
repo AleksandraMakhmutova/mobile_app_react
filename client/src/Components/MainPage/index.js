@@ -3,6 +3,8 @@ import FotoPart from './FotoPart'
 import ScrollPart from './ScrollPart'
 import s from './style.module.css'
 import cn from 'classnames'
+
+
 function MainPage() {
 
 	return (

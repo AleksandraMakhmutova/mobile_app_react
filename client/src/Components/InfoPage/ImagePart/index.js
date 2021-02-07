@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './style.module.css'
-import cn from 'classnames'
 import imageDoc from "./docImage.png"
+
 function ImagePart() {
 
 	return (

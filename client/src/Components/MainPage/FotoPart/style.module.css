@@ -21,7 +21,7 @@
 
 }
 .photoIcon{
-	margin-top: 36%;
+	padding: inherit;
 	color: #ebfc055e;
 }
 .photoIcon:hover{
@@ -37,13 +37,6 @@ margin-top: 20%;
 	align-self: flex-end;
 	margin-left: 5%;
 	margin-bottom: 1%;
-	}
-	.photoIcon{
-		margin-top: 50%;
-		color: #ebfc055e;
-	}
-	.photoIcon:hover{
-		color: #000000af;
 	}
 	.icon{
 		color: #272727;
@@ -83,7 +76,7 @@ margin-top: 20%;
 		margin-left:15%
 	}
 	.photoIcon{
-		margin-top: 50%;
+		padding: inherit;
 		color: #ebfc055e;
 	}
 	.photoIcon:hover{
@@ -93,7 +86,13 @@ margin-top: 20%;
 	.input{
 		width: 90%;
 		margin-top: 20%;
+		margin: 0 auto;
+    margin-left: -22%;
 		}
+	.label{
+			padding-right: 83px;
+    margin-right: -55px;
+	}	
 	
 }
 
@@ -128,7 +127,6 @@ margin-top: 20%;
 		margin-top: 20%;
 		}
 		.photoIcon{
-		margin-top: 50%;
 		color: #ebfc055e;
 	}
 	.photoIcon:hover{
@@ -140,6 +138,11 @@ margin-top: 20%;
 	.icon:hover{
 		color:#030300;
 	}
+
+	.label{
+		padding-right: 83px;
+	margin-right: -55px;
+}	
 }
 
 
@@ -168,7 +171,6 @@ margin-top: 20%;
 		margin-left:15%
 	}
 	.photoIcon{
-		margin-top: 50%;
 		color: #ebfc055e;
 	}
 	.photoIcon:hover{
@@ -177,6 +179,8 @@ margin-top: 20%;
 	.input{
 		width: 90%;
 		margin-top: 20%;
+		margin: 0 auto;
+    margin-left: -30%;
 		}
 	
 	.icon{
@@ -185,6 +189,11 @@ margin-top: 20%;
 	.icon:hover{
 		color:#030300;
 	}
+
+	.label{
+		padding-right: 83px;
+	margin-right: -55px;
+}	
 }
 
 
@@ -214,7 +223,6 @@ margin-top: 20%;
 		margin-left:15%
 	}
 	.photoIcon{
-		margin-top: 50%;
 		color: #ebfc055e;
 	}
 	.photoIcon:hover{
@@ -231,6 +239,11 @@ margin-top: 20%;
 	.icon:hover{
 		color:#ffe600;
 	}
+
+	.label{
+		padding-right: 83px;
+	margin-right: -55px;
+}	
 }
 
 @media (max-width: 320px) {
@@ -258,7 +271,6 @@ margin-top: 20%;
 		margin-left:15%
 	}
 	.photoIcon{
-		margin-top: 50%;
 		color: #ebfc055e;
 	}
 	.photoIcon:hover{
@@ -275,4 +287,9 @@ margin-top: 20%;
 	.icon:hover{
 		color:#ffe600;
 	}
+
+	.label{
+		padding-right: 83px;
+	margin-right: -55px;
+}	
 }

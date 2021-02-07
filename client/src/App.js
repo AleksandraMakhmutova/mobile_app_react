@@ -6,10 +6,11 @@ import InfoPage from './Components/InfoPage';
 
 function App() {
   return (
+	
     <BrowserRouter>
 			<Switch>
-				<Route exact path="/" component={MainPage}/>
 <Route exact path="/info/:id" component={InfoPage}/>
+				<Route path="/" component={MainPage}/>
 			
 			</Switch>
 		</BrowserRouter>

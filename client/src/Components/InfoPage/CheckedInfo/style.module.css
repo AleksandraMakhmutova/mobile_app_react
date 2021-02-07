@@ -1,4 +1,6 @@
-
+.flex{
+	margin: 6px 0px auto;
+}
 
 #respTable {
 	width: 100%;
@@ -17,7 +19,6 @@
 #respTableCaption h1{
 font-size: 25px;
 color: rgb(65, 65, 65);
-text-shadow:  rgb(230, 255, 5) 1px 0 10px;
 }
 
 .tableHeaderCell{
@@ -49,27 +50,36 @@ text-shadow:  rgb(230, 255, 5) 1px 0 10px;
 
 
 
-@media (max-width: 600px) {
-
-
-}
 @media (max-width: 550px) {
+	.flex{
+		margin: 6px 0px auto;
 
+	}
 }
 
 @media (max-width: 500px) {
-
+	.flex{
+		margin: 6px 0px auto;
+	}
 }
 
-@media (max-width: 414px) {
-
+@media (max-width: 462px) {
+	.flex{
+		margin: 6px 0px auto;
+	  margin-left: 15%;
+	}
 }
 
 @media (max-width: 380px) {
-
+	.flex{
+		margin: 6px 0px auto;
+	  margin-left: 25%;
+	}
 }
 
 @media (max-width: 320px) {
-
+	.flex{
+		margin: 6px 0px auto;
+	  margin-left: 37%;
+	}
 }
-
