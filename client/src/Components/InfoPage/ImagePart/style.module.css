@@ -158,8 +158,8 @@ img{
 		background-color: rgba(252, 252, 252, 0.397);
 		margin: 0 auto;
 	
-		width: 372px;
-		height: 33%;
+		width: 330px;
+    height: 25%;
 		/* border: 3px rgb(122, 122, 122)solid ; */
 		/* margin-bottom: 5px; */
 		border-radius: 10px;
@@ -176,9 +176,9 @@ img{
 	.container {
 		background-color: rgba(252, 252, 252, 0.397);
 		margin: 0 auto;
-	
-		width: 334px;
-		height: 33%;
+	margin-right: 66px;
+		width:298px;
+		height: 30%;
 		/* border: 3px rgb(122, 122, 122)solid ; */
 		/* margin-bottom: 5px; */
 		border-radius: 10px;

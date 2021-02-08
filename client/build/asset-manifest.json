@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mobile_app_react/static/css/main.d3589e64.chunk.css",
-    "main.js": "/mobile_app_react/static/js/main.1851fe92.chunk.js",
-    "main.js.map": "/mobile_app_react/static/js/main.1851fe92.chunk.js.map",
+    "main.css": "/mobile_app_react/static/css/main.f13d0572.chunk.css",
+    "main.js": "/mobile_app_react/static/js/main.6c5bebfb.chunk.js",
+    "main.js.map": "/mobile_app_react/static/js/main.6c5bebfb.chunk.js.map",
     "runtime-main.js": "/mobile_app_react/static/js/runtime-main.1a4a81fd.js",
     "runtime-main.js.map": "/mobile_app_react/static/js/runtime-main.1a4a81fd.js.map",
-    "static/js/2.155613f2.chunk.js": "/mobile_app_react/static/js/2.155613f2.chunk.js",
-    "static/js/2.155613f2.chunk.js.map": "/mobile_app_react/static/js/2.155613f2.chunk.js.map",
+    "static/js/2.a14c6810.chunk.js": "/mobile_app_react/static/js/2.a14c6810.chunk.js",
+    "static/js/2.a14c6810.chunk.js.map": "/mobile_app_react/static/js/2.a14c6810.chunk.js.map",
     "index.html": "/mobile_app_react/index.html",
-    "static/css/main.d3589e64.chunk.css.map": "/mobile_app_react/static/css/main.d3589e64.chunk.css.map",
-    "static/js/2.155613f2.chunk.js.LICENSE.txt": "/mobile_app_react/static/js/2.155613f2.chunk.js.LICENSE.txt",
+    "static/css/main.f13d0572.chunk.css.map": "/mobile_app_react/static/css/main.f13d0572.chunk.css.map",
+    "static/js/2.a14c6810.chunk.js.LICENSE.txt": "/mobile_app_react/static/js/2.a14c6810.chunk.js.LICENSE.txt",
     "static/media/style.module.css": "/mobile_app_react/static/media/background.f39b1dd6.jpg",
     "static/media/docImage.57fbc111.png": "/mobile_app_react/static/media/docImage.57fbc111.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1a4a81fd.js",
-    "static/js/2.155613f2.chunk.js",
-    "static/css/main.d3589e64.chunk.css",
-    "static/js/main.1851fe92.chunk.js"
+    "static/js/2.a14c6810.chunk.js",
+    "static/css/main.f13d0572.chunk.css",
+    "static/js/main.6c5bebfb.chunk.js"
   ]
 }
