@@ -65,20 +65,20 @@ color: rgb(65, 65, 65);
 @media (max-width: 462px) {
 	.flex{
 		margin: 6px 0px auto;
-	  margin-left: 15%;
+
 	}
 }
 
 @media (max-width: 380px) {
 	.flex{
 		margin: 6px 0px auto;
-	  margin-left: 25%;
+
 	}
 }
 
 @media (max-width: 320px) {
 	.flex{
 		margin: 6px 0px auto;
-	  margin-left: 37%;
+
 	}
 }

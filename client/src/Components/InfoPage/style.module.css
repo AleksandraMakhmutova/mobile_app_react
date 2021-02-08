@@ -1,5 +1,8 @@
 .flex{
 	margin: 0 auto;
 	width: 80%;
-	height: 80%;
+	height: 1190px;
+	max-height: 90vh;
 }
+
+

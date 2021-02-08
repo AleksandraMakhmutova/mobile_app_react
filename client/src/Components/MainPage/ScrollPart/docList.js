@@ -188,92 +188,49 @@ const docList = [
 	{
 		id:{
 			status:false, 
-			id: 5
+			id: 1
 		},
 		document: {
       status:false,
-			document: "passport"}
+			document: "passport"
+		}
 		,
 		name: {
       status:false,
-      name:"Ольга Константиновна"
+      name:"Иван Иванович"
 		},
 		surname: {
       status:false,
-      surname:"Киршанова"
+      surname:"Иванов"
 		},
 		dateOfBirth: {
       status:false,
-      dateOfBirth:'20.05.1939'
+      dateOfBirth:'23.05.1990'
 		},
 		placeOfBirth: {
-			placeOfBirth:false,
+			status:false,
 			placeOfBirth: 'Москва'
 		},
 		gender: {
 			status:false,
-			gender: 'жен.'
+			gender: 'муж.'
 		},
 		serialNumber: {
 			status:false,
-			serialNumber:'50 09 2190056'
+			serialNumber:'50 09 2190806'
 		},
     dateOfIssue: {
 			status:false,
-			dateOfIssue:'24.10.2015'
+			dateOfIssue:'24.10.2010'
 		},
 		departmentCode: {
 			status:false,
 			departmentCode:'540-513'
 		},
    registration: {
-		status:false,
+		 status:false,
 		registration: "Москва, Варшавское шоссе, дом 5, кв. 25"
 	 }
 	}
-	// ,
-	// {
-	// 	id: 6,
-	// 	document: {
-  //     status:false,
-	// 		document: "passport"}
-	// 	,
-	// 	name: {
-  //     status:false,
-  //     name:"Мария Ивановна"
-	// 	},
-	// 	surname: {
-  //     status:false,
-  //     surname:"Иванова"
-	// 	},
-	// 	dateOfBirth: {
-  //     status:false,
-  //     date:'23.05.1995'
-	// 	},
-	// 	placeOfBirth: {
-	// 		place: 'Москва',
-	// 		status:false
-	// 	},
-	// 	gender: {
-	// 		gender: 'жен.',
-	// 		status:false
-	// 	},
-	// 	serialNumber: {
-	// 		serialNumber:'50 09 2890007',
-	// 		status:false
-	// 	},
-  //   dateOfIssue: {
-	// 		dateOfIssue:'24.10.2005',
-	// 		status:false
-	// 	},
-	// 	departmentCode: {
-	// 		code:'540-513',
-	// 		status:false
-	// 	},
-  //  registration: {
-	// 	registration: "Москва, Варшавское шоссе, дом 85, кв. 255",
-	// 	status:false
-	//  }
-	// }
 ]
 export default docList

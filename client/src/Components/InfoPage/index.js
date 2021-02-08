@@ -15,6 +15,8 @@ const [infoCard, setInfoCard] = useState(docList.filter(el=>(el.id.id == id)));
 <div className={style.flex}>
 {	infoCard && <><InfoBox infoCard={infoCard}/></> }
 { infoCard && <><CheckedInfo infoCard={infoCard}/></>}
+
+
 <ImagePart/>
 </div>
 
