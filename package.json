@@ -1,0 +1,21 @@
+{
+  "name": "mobile_app_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+		"start": "cd client && yarn deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksandraMakhmutova/mobile_app_react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksandraMakhmutova/mobile_app_react/issues"
+  },
+  "homepage": "https://aleksandramakhmutova.github.io/mobile_app_react/"
+}

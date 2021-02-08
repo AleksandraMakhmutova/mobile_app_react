@@ -1,8 +1,9 @@
 .flex{
 	margin: 6px 0px auto;
+
 }
-#respTable {
-	width: 95%;
+ #respTable {
+	width: 91%;
 	display: table;
 }
 
@@ -10,7 +11,7 @@
 		display: table;
 		margin: 0 auto;
 		margin-top: 10px;
-		text-align: center;
+		text-align: start;
 		font-size: 30px;
 		font-weight:normal;
 }
@@ -24,9 +25,8 @@
 }
 
 .tableBodyCell{
-	display: table-cell;
-	padding-left: 0px;    
-	padding-right: 15px;
+	display: table-cell;  
+	/* padding: 5px; */
 	font-size: medium;
 }
 

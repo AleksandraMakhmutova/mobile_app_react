@@ -3,7 +3,7 @@
 }
 
 #respTable {
-	width: 100%;
+	width: 91%;
 	display: table;
 }
 
@@ -11,19 +11,18 @@
 		display: table;
 		margin: 0 auto;
 		margin-top: 10px;
-		text-align: center;
+		text-align: start;
 		font-size: 30px;
 		font-weight:normal;
 }
 
-#respTableCaption h1{
-font-size: 25px;
+#respTableCaption h5{
 color: rgb(65, 65, 65);
 }
 
 .tableHeaderCell{
 	display: table-cell;
-	padding: 10px;
+	/* padding: 5px; */
 	text-align: justify;
 	border-bottom: 1px solid black;
 	

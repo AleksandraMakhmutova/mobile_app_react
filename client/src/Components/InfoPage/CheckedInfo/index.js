@@ -32,10 +32,12 @@ const handleChange = (event) => {
 	
 	return (
 		<div className={style.flex}>
+
 	<div id={style.respTable}>
 <div id={style.respTableCaption}>
-<h1>Checks document</h1>
 <div id={style.respTableBody}>
+<h5>Checks document</h5>
+
 <div className={style.respTableRow}>
 
 <div className={style.tableBodyCell}>

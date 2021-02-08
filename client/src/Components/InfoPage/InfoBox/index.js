@@ -17,8 +17,7 @@ if(key==value){
 }}}))}
 
 	return (
-		<div className={style.flex}>
-
+		// <div className={style.flex}>
 	<div id={style.respTable}>
 <div id={style.respTableCaption}>
 <div id={style.respTableBody}>
@@ -137,7 +136,7 @@ if(key==value){
 </div>
 
 </div>
-		</div>
+		// </div>
 
 	)
 }

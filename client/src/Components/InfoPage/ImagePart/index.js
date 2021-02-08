@@ -8,7 +8,7 @@ function ImagePart() {
 		<div className={style.container}>
 		<div id={style.respTable}>
   <div id={style.respTableCaption}>
-	<h1>Images</h1>	
+	<h5>Images</h5>	
 	<div className={style.respTableRow}>
   <div className={style.tableBodyCell}>
   <img src={imageDoc} alt="imageDoc"/>
